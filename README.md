@@ -12,3 +12,19 @@
 
 ## Utilité
 - Analyse rapide d’un ensemble de données **statistiques de base** (notes d’élèves, résultats expérimentaux, données économiques).  
+
+# 2. Programme : Recherche seauentielle
+
+## Fonctionnalités
+- Saisie du nombre d’étudiants.  
+- Pour chaque étudiant, l’utilisateur fournit :  
+  - **Nom** (chaîne de caractères).  
+  - **Âge** (entier).  
+- Stockage des étudiants dans un tableau de structures `Etudiant`.  
+- Saisie d’un **âge à rechercher**.  
+- Affichage de tous les étudiants correspondant à l’âge recherché.  
+- Si aucun étudiant trouvé → affiche **"Not found"**.  
+
+### Utilité  
+- Permet de pratiquer la manipulation des **structures en C**.  
+- Exemple concret d’une **recherche séquentielle (linéaire)**.  
