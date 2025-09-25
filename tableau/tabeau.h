@@ -7,6 +7,7 @@
 
     void median_tab();
     void recherche_seq();
+    void inverse_tab();
 
 #endif
 
