@@ -1,5 +1,6 @@
 #include "matrice.h"
 
+//travail de theresa matrices
 int main(){
     int choix;
     do
