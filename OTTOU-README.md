@@ -65,19 +65,6 @@ void prod_vect_mat(float vect[], float mat[][MAX], float prod[], int n, int m);
 - **Vérification** : n (taille vecteur) = m (lignes matrice)
 - **Calcul** : produit ligne × colonne
 
-## 🔧 Fonctions Auxiliaires
-
-### Saisie de données
-```c
-void saisir_vecteur(float tab[], int n, char* nom);
-void saisir_matrice(float tab[][MAX], int n, int m, char* nom);
-```
-
-### Affichage des résultats
-```c
-void afficher_vecteur(float tab[], int n);
-void afficher_matrice(float tab[][MAX], int n, int m);
-```
 
 ## 🎯 Exemples de Sortie
 
@@ -104,7 +91,6 @@ Resultat: [14.00, 32.00, 50.00]
 
 **OTTOU ABANDA David Nathanael**  
 - Implémentation des algorithmes de calcul matriciel
-- Développement des fonctions auxiliaires
 - Tests et validation des résultats
 
 ## 📌 Notes Techniques
