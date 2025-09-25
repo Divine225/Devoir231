@@ -1,4 +1,113 @@
 ```markdown
+# Produit Vecteur-Matrice
+
+Programme spécialisé dans le calcul du produit d'un vecteur par une matrice.
+
+## 🎯 Fonctionnalités Exclusives
+
+- **Produit vecteur × matrice** avec vérification de compatibilité
+- **Interface interactive** de saisie des données
+- **Affichage détaillé** du calcul étape par étape
+- **Gestion d'erreurs** pour les dimensions incompatibles
+
+## 🧮 Algorithmique
+
+### Formule Mathématique
+Pour un vecteur **V** (1×n) et une matrice **M** (n×m) :
+```math
+R[j] = Σ (V[i] × M[i][j]) pour i = 0 à n-1
+```
+
+### Compatibilité Dimensions
+- Vecteur : `n` éléments  
+- Matrice : `n` lignes × `m` colonnes
+- Résultat : vecteur de `m` éléments
+
+## 💻 Compilation & Exécution
+
+```bash
+gcc -o produit_vecteur_matrice produit.c
+./produit_vecteur_matrice
+```
+
+## 📊 Exemple d'Exécution
+
+```
+========================================
+   PRODUIT VECTEUR-MATRICE
+   Auteur: OTTOU ABANDA David Nathanael
+========================================
+
+🎯 Dimensions du calcul:
+Taille du vecteur (n): 2
+Nombre de colonnes matrice (m): 2
+
+📥 Saisie du vecteur 'V' (2 elements):
+  Element 1: 1
+  Element 2: 2
+
+📥 Saisie de la matrice 'M' (2 x 2):
+  Ligne 1: 1 2
+  Ligne 2: 3 4
+
+📋 Donnees saisies:
+🔹 Vecteur V: [  1.00  2.00]
+🔹 Matrice M (2x2):
+  [  1.00  2.00]
+  [  3.00  4.00]
+
+⚡ Calcul en cours...
+=== PRODUIT VECTEUR × MATRICE ===
+Calcul: 1.0×1.0 + 2.0×3.0 | 1.0×2.0 + 2.0×4.0
+📊 Resultat: [   7.00   10.00]
+
+✅ RESULTAT FINAL:
+🔹 Vecteur d'entree: [  1.00  2.00]
+   ×
+🔹 Matrice d'entree (2x2):
+  [  1.00  2.00]
+  [  3.00  4.00]
+   =
+🔹 Vecteur resultat: [   7.00   10.00]
+```
+
+## 👨‍💻 Auteur
+
+**OTTOU ABANDA David Nathanael**  
+- Implémentation exclusive produit vecteur-matrice
+- Interface utilisateur intuitive
+- Gestion robuste des erreurs
+
+## 🚀 Features Techniques
+
+- ✅ Validation dimensions en temps réel
+- ✅ Affichage détaillé du calcul
+- ✅ Formatage professionnel des résultats
+- ✅ Limitation sécurisée des dimensions (MAX=10)
+```
+
+## 🔧 Commits suggérés
+
+```bash
+git add produit_vecteur_matrice.c
+git commit -m "feat: programme complet produit vecteur-matrice
+
+- Implémentation exclusive de prod_vect_mat()
+- Interface interactive avec saisie sécurisée
+- Affichage détaillé des calculs étape par étape
+- Gestion d'erreurs dimensions et limites MAX"
+
+git add README.md
+git commit -m "docs: documentation spécialisée produit vecteur-matrice
+
+- Guide usage exclusif pour cette opération
+- Exemples détaillés avec sorties complètes
+- Explications mathématiques de l'algorithme
+- Documentation auteur et features techniques"
+```
+
+Ce programme est **100% dédié** au produit vecteur-matrice avec une interface professionnelle ! 🚀
+```markdown
 # Produit Vectoriel Généralisé
 
 Programme spécialisé dans le calcul du produit vectoriel dans R^n.
